@@ -1,5 +1,3 @@
-# Define the content for README.md
-readme_content = """\
 # 🏥 Smart Health Monitoring System using ESP32  
 
 ## 📌 Overview  
