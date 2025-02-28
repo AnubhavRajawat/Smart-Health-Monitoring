@@ -40,14 +40,13 @@ To build this project, you need the following components:
 ---
 
 ## 🖥 Software Requirements  
-Before you proceed, ensure you have installed the following:  
+## Before you proceed, ensure you have installed the following:  
 
-✅ **Arduino IDE** – For programming the ESP32  
+✅ **Arduino IDE** – For programming the ESP32<br>
 ✅ **ESP32 Board Package** – Add ESP32 support in Arduino IDE  
 ✅ **Node-RED** – Enables cloud communication  
 ✅ **OneWire & DallasTemperature** – For DS18B20 sensor  
 ✅ **SPIFFS Library** – For local storage  
-
 ---
 
 ## 🚀 Installation & Setup  
@@ -56,4 +55,17 @@ Before you proceed, ensure you have installed the following:
 ```bash
 git clone https://github.com/yourusername/SmartHealthMonitoring.git
 cd SmartHealthMonitoring
+```
+### 🔹 Step 2: Setup Arduino Environment
+
+1️⃣ Install ESP32 board support in Arduino IDE.<br>
+2️⃣ Install required libraries (Adafruit MAX30102, OneWire, DallasTemperature).<br>
+3️⃣ Open the provided Arduino sketch and modify Wi-Fi credentials.<br>
+4️⃣ Upload the code to the ESP32.<br>
+
+### 🔹 Step 3: Setup Node-RED Dashboard
+
+1️⃣ Install Node-RED on your system.<br>
+2️⃣ Import the provided Node-RED flow JSON file.<br>
+3️⃣ Start Node-RED and access the dashboard via the web interface.<br>
 
